@@ -10,7 +10,7 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON then is a method
       .then(data => { // what we get from server we pass into parameter of data
         if (data.data[0].source === "Manga") {
-          document.getElementById("result").innerHTML = `${choice} is based on a manga!`
+          document.getElementById("result").innerHTML = `Yes, ${choice} is based on a manga!`
         } else {
           document.getElementById("result").innerHTML = `${choice} is an original anime!`
         } 

@@ -1,5 +1,75 @@
-body {
-  background-color: #b2f8fb;
-  color: #515c8f;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #3B009C;
+  color: #FFC700;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+#search {
+  background-color: #3B009C;
+  border: 2px solid #FFC700;
+  width: 500px;
+  height: 55px;
+  color:#FFC700;
+  font-size: 24px;
+}
+
+#search:focus {
+  background-color: aliceblue;
+  color:#3B009C;
+}
+
+.btn {
+  background-color: #FFC700;
+  height: 55px;
+  border: 2px solid #FFC700;
+  color:#3B009C;
+  width: 125px;
 }
