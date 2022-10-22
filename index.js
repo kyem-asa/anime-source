@@ -20,7 +20,7 @@ function getFetch(){
       })
       .catch(err => { //gives us an error message
           console.log(`error ${err}`)
-          document.getElementById("result").innerHTML = "Couldn't find anything. Do you want to search again?"
+          document.getElementById("result").innerHTML = "No anime with this title. Search again?"
       });
 
 
