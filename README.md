@@ -4,7 +4,7 @@ Find out whether an anime is based on a manga.
 
 ![Anime source website with a question that asks, is this anime a manga and a search form beneath.](anime-source.png)
 
-[Live site]([https://duckduckgo.com](https://kyem-asa.github.io/anime-source/))
+[Live site](https://kyem-asa.github.io/anime-source/)
 
 ## How It's Made:
 
