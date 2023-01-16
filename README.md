@@ -1,17 +1,18 @@
 # Anime Source
 
-Find out whether an anime is based on a manga.
+Find out whether an anime you're watching is based on a manga.
 
 ![Anime source website with a question that asks, is this anime a manga and a search form beneath.](anime-source.png)
 
-[Live site](https://kyem-asa.github.io/anime-source/)
+View the [live site](https://kyem-asa.github.io/anime-source/)
 
-## How It's Made:
-
-**Tech used:** HTML, CSS, JavaScript
-
-This project uses the Jikan anime API.
+## Built with:
+HTML, CSS, JavaScript
 
 ## Future updates:
 - Check reverse, if a manga has an anime
 - Check light novel as a source
+
+## Acknowledgements:
+
+This project uses the [Jikan API](https://jikan.moe/) :purple_heart:
